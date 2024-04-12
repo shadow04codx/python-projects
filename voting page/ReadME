@@ -1,0 +1,55 @@
+# Voting System
+
+This is a simple web-based voting system implemented using Streamlit, a Python library for creating web applications. The system allows users to log in, vote for their preferred candidate, and view the voting tally.
+
+## Features
+
+- **Authentication**: Users can log in with their username and password to access the voting functionality.
+- **Voting**: Authenticated users can cast their votes for their preferred candidate from a list of candidates.
+- **Vote Tally**: Admin users can view the current tally of votes for each candidate and monitor the voting progress.
+- **Winner Calculation**: The system automatically calculates and displays the winner based on the highest number of votes received.
+
+## Usage
+
+1. Clone the repository:
+
+
+
+
+
+2. Install the required dependencies:
+
+pip install -r requirements.txt
+
+
+3. Run the application:
+streamlit run app.py
+
+
+4. Access the application in your web browser at `http://localhost:8501`.
+
+5. Log in with the provided username and password to cast your vote or view the voting tally.
+
+## Screenshots
+
+![Login Page](screenshots/login.png)
+*Login Page*
+
+![Voting Page](screenshots/vote.png)
+*Voting Page*
+
+![Vote Tally](screenshots/tally.png)
+*Vote Tally*
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
+
+
