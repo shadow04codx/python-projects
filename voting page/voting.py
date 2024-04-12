@@ -3,16 +3,15 @@ import random
 
 # Define user credentials and roles
 users = {
-    "admin": {"password": "admin123", "role": "admin"},
+    "user1": {"password": "user1123", "role": "admin"},
     # Student voters
-    "bharani": {"password": "bharani123", "role": "student"},
-    "vikram": {"password": "vikram123", "role": "student"},
-    "rakesh": {"password": "rakesh123", "role": "student"},
-    "rohith": {"password": "rohith123", "role": "student"},
+    "user2": {"password": "user2123", "role": "student"},
+    "user3": {"password": "user3123", "role": "student"},
+    "user4": {"password": "user4123", "role": "student"},
 }
 
 # Election candidates
-candidates = ['Naveen', 'Fawaz']
+candidates = ['Candidate 1', 'Candidate 2']
 
 # Initialize session state for votes if not already present
 if 'votes' not in st.session_state:
